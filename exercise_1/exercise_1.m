@@ -15,7 +15,7 @@ B_table = array2table(B, "VariableNames", voin);
 figure(1);
 stackedplot(B_table)
 
-%% Calculatin correlation
+%% Calculating correlation
 figure(2);
 B_corr = corrcoef(B);
 imagesc(B_corr);
